@@ -20,13 +20,18 @@ header {
     font-size: 2.5rem;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.logo > img{
+.logo>img {
     height: 2.25rem;
-    margin-left: 1rem;
+    /* margin-left: 2rem; */
+}
+
+.boxLogo {
+    margin-left: 0.75rem;
 }

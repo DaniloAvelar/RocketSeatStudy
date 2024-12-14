@@ -1,0 +1,43 @@
+.newTask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+}
+
+input[type=text]{
+    width: 39.875rem;
+    height: 3.375rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    background: var(--gray-500);
+    color: var(--gray-200);
+    padding: 1rem;
+    margin-top: -1.687rem;
+}
+
+button{
+    width: 5.625rem;
+    height: 3.375rem;
+    margin-top: -1.687rem;
+    border-radius: 8px;
+    border:none;
+    background: var(--blueDark);
+    color: var(--gray-200);
+    font-size: 0.875rem;
+}
+
+.contentButtom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    transition: background-color 0.1s;
+}
+
+button[type=submit]:hover{
+    background: var(--blue);
+}
