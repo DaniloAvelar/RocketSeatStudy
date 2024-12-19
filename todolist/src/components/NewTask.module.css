@@ -41,3 +41,7 @@ button{
 button[type=submit]:hover{
     background: var(--blue);
 }
+
+button[type=submit]:active{
+    background: var(--blueDark);
+}

@@ -1,6 +1,7 @@
 import './global.css'
 import { Header } from './components/Header';
 import { NewTask } from './components/NewTask';
+import { TodoList } from './components/ToDoList';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <NewTask />
+      <TodoList />
     </>
   )
 }
